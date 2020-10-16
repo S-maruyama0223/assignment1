@@ -13,8 +13,6 @@
 		E40B182D25397D96009425DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40B182B25397D96009425DC /* Main.storyboard */; };
 		E40B182F25397D98009425DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40B182E25397D98009425DC /* Assets.xcassets */; };
 		E40B183225397D98009425DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40B183025397D98009425DC /* LaunchScreen.storyboard */; };
-		E40B183D25397D98009425DC /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B183C25397D98009425DC /* Assignment1Tests.swift */; };
-		E40B184825397D98009425DC /* Assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B184725397D98009425DC /* Assignment1UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		E40B183125397D98009425DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E40B183325397D98009425DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E40B183825397D98009425DC /* Assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E40B183C25397D98009425DC /* Assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1Tests.swift; sourceTree = "<group>"; };
-		E40B183E25397D98009425DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E40B184325397D98009425DC /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E40B184725397D98009425DC /* Assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITests.swift; sourceTree = "<group>"; };
-		E40B184925397D98009425DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				E40B182425397D96009425DC /* Assignment1 */,
-				E40B183B25397D98009425DC /* Assignment1Tests */,
-				E40B184625397D98009425DC /* Assignment1UITests */,
 				E40B182325397D96009425DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				E40B183325397D98009425DC /* Info.plist */,
 			);
 			path = Assignment1;
-			sourceTree = "<group>";
-		};
-		E40B183B25397D98009425DC /* Assignment1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E40B183C25397D98009425DC /* Assignment1Tests.swift */,
-				E40B183E25397D98009425DC /* Info.plist */,
-			);
-			path = Assignment1Tests;
-			sourceTree = "<group>";
-		};
-		E40B184625397D98009425DC /* Assignment1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				E40B184725397D98009425DC /* Assignment1UITests.swift */,
-				E40B184925397D98009425DC /* Info.plist */,
-			);
-			path = Assignment1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40B183D25397D98009425DC /* Assignment1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40B184825397D98009425DC /* Assignment1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

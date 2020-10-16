@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             view.addSubview(textField)
         }
         view.addSubview(returnButton)
+        resultLabel.text = "0.0"
         view.addSubview(resultLabel)
     }
     
